@@ -17,6 +17,8 @@ public class Student {
     
 // Non parameterized constructor
      public Student() {
+//         calling another constructor in a constructor
+//         this(12,"zi","surat");
          System.out.println("non-parameterized constructor creating object....");    
     }
     
@@ -31,6 +33,7 @@ public class Student {
     
 //    Behaviour of class
     public void study(){
+//        study();
         System.out.println(studentName+ "is studying");
     }
 //    Behaviour of class
