@@ -19,6 +19,11 @@ public class demo {
         
         st1=new Student(0,"zis","abad");
         
+        Dog d1=new Dog();
+        d1.eating();
+        System.out.println(d1.colour);
+        d1.speak();
+        
 //        st1.studentCity = "ahmedabad";
 ////        st1.studentid=123;
 //        st1.studentCity="delhi";
